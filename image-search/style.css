@@ -96,6 +96,7 @@ img {
 
 .show-more {
   margin: 20px auto;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
