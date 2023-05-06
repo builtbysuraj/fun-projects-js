@@ -12,3 +12,85 @@ html {
 body {
   background-color: whitesmoke;
 }
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  padding: 2rem;
+  padding-bottom: 2.5rem;
+  text-align: center;
+  background-color: #0c2461;
+  font-weight: 600;
+  color: white;
+  border-bottom-left-radius: 1.6rem;
+  border-top-right-radius: 1.6rem;
+}
+
+#recipe-list {
+  list-style: none;
+}
+
+.recipe-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 1rem;
+  min-width: 120px;
+}
+
+p {
+  padding: 1rem;
+  color: #777;
+}
+
+a {
+  background-color: #0c2461;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .recipe-item {
+    flex-direction: column;
+  }
+  h2{
+    font-size: 2.3rem;
+  }
+  img{
+    width: 95%;
+    height: auto;
+  }
+  p{
+    text-align: center;
+    padding: 0;
+    font-size: 1.5rem;
+    margin: 1.3rem;
+  }
+  a{
+    width: 90%;
+    text-align: center;
+  }
+}
