@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin: 1rem;
+  display: block;
+  color: #0d0d3b;
+  width: max-content;
+  font-size: 1.7rem;
+}
+
+a:hover {
+  font-weight: bold;
+}

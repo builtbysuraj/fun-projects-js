@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  text-align: center;
+  font-family: monospace;
+}
+
+body{
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+p{
+  font-size: 1.7rem;
+  padding: 1rem;
+  background-image:linear-gradient(#f7b3b3, #efe35e) ;
+  letter-spacing: 0.3ch;
+  margin: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+button {
+  font-family: inherit;
+  padding: 1em 2em;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  border: 2px solid black;
+}
